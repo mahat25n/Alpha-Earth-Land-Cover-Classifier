@@ -48,6 +48,10 @@ This repository extends the original app with the following improvements:
 - **Best model highlight** - The row with the highest accuracy is marked with a star (Best) and highlighted in green
 - **Visual comparison chart** - Two matplotlib subplots (Accuracy and ROC AUC) are rendered as grouped bar charts after the comparison table
 - **Download comparison table as CSV** - A one-click button exports all comparison rows to a CSV file
+- **Multi-select Class B** - Users can hold Ctrl (Windows/Linux) or Cmd (Mac) to select multiple Class B classes; all combinations run automatically and appear in the comparison table with a dynamic title showing the actual classes, years, and algorithm selected
+- **Temporal embedding importance chart** - A line chart showing how the top 5 embedding importances change across selected years, with one colored line per embedding and a Download PNG button
+- **Download charts as PNG** - Each comparison chart (Accuracy, ROC AUC, and temporal embedding) has a Download PNG button that exports the figure at 300 dpi
+- **Download embedding PNGs** - A button exports each of the top N embedding layers as a publication-ready PNG map with the same color palette shown on the folium map, a colorbar, and the embedding name and importance percentage in the title
 
 ### Time Series Download
 - **Time series data export** - After a year-range run a Download Time Series Data button appears

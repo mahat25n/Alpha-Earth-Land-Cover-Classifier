@@ -126,8 +126,9 @@ https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMB
 ### This Extended Version
 
 ```
-Ibrahim, M. (2025). Extended Alpha-Earth Land Cover Classifier.
+Ibrahim, M.M. (2025). Extended Alpha-Earth Land Cover Classifier.
 GitHub. https://github.com/mahat25n/Alpha-Earth-Land-Cover-Classifier
+ORCID: https://orcid.org/0000-0001-8450-7551
 ```
 
 ---

@@ -1,0 +1,456 @@
+[
+  {
+    "doi": "10.1016/j.jag.2026.105258",
+    "title": [
+      "Harvesting AlphaEarth: Benchmarking the geospatial foundation model for agricultural downstream tasks"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0412-9851",
+        "authenticated-orcid": false,
+        "given": "Yuchi",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yawen",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anu",
+        "family": "Swatantran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David B.",
+        "family": "Lobell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "container": [
+      "International Journal of Applied Earth Observation and Geoinformation"
+    ],
+    "url": "https://doi.org/10.1016/j.jag.2026.105258"
+  },
+  {
+    "doi": "10.1016/j.rsase.2026.102045",
+    "title": [
+      "Physically interpretable AlphaEarth foundation model embeddings enable LLM-based land surface intelligence"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2152-8379",
+        "authenticated-orcid": false,
+        "given": "Mashrekur",
+        "family": "Rahman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "container": [
+      "Remote Sensing Applications: Society and Environment"
+    ],
+    "url": "https://doi.org/10.1016/j.rsase.2026.102045"
+  },
+  {
+    "doi": "10.3390/rs18071065",
+    "title": [
+      "Evaluating the Performance of AlphaEarth Foundation Embeddings for Irrigated Cropland Mapping Across Regions and Years"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-8723-1185",
+        "authenticated-orcid": false,
+        "given": "Lulu",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Agronomy, Northwest A&F University, Yangling 712100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1639-7247",
+        "authenticated-orcid": false,
+        "given": "Yuan",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Agronomy, Northwest A&F University, Yangling 712100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-2762-2427",
+        "authenticated-orcid": false,
+        "given": "Xiangyang",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Agronomy, Northwest A&F University, Yangling 712100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nannan",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Agronomy, Northwest A&F University, Yangling 712100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ru",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Agronomy, Northwest A&F University, Yangling 712100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shixiang",
+        "family": "Xi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Agronomy, Northwest A&F University, Yangling 712100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "International Research Center of Big Data for Sustainable Development Goals, Beijing 100094, China"
+          },
+          {
+            "name": "Key Laboratory of Digital Earth Science, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing 100094, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-5302-9398",
+        "authenticated-orcid": false,
+        "given": "Rui",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Agronomy, Northwest A&F University, Yangling 712100, China"
+          },
+          {
+            "name": "State Key Laboratory for Crop Stress Resistance and High-Efficiency Production, Yangling 712100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          2
+        ]
+      ]
+    },
+    "container": [
+      "Remote Sensing"
+    ],
+    "url": "https://doi.org/10.3390/rs18071065"
+  },
+  {
+    "doi": "10.20944/preprints202605.0981.v1",
+    "title": [
+      "AlphaEarth Foundations (AEF) in Earth Observation: A Systematic Review of Applications and Practices"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-6984-9959",
+        "authenticated-orcid": false,
+        "given": "Shuyang",
+        "family": "Hou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-5699-3919",
+        "authenticated-orcid": false,
+        "given": "Haoyue",
+        "family": "Jiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-0483-5502",
+        "authenticated-orcid": false,
+        "given": "Ziqi",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Lutong",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Guanyu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-6875-9900",
+        "authenticated-orcid": false,
+        "given": "Shaowen",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhangyan",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zengjie",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shaoqing",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yaxian",
+        "family": "Qing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jianyuan",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0865-3850",
+        "authenticated-orcid": false,
+        "given": "Xuefeng",
+        "family": "Guan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3971-0512",
+        "authenticated-orcid": false,
+        "given": "Huayi",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          14
+        ]
+      ]
+    },
+    "container": [],
+    "url": "https://doi.org/10.20944/preprints202605.0981.v1"
+  }
+]

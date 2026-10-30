@@ -1,0 +1,75 @@
+{
+  "scope": "One-region software parity benchmark; not an accuracy improvement claim",
+  "bbox": [
+    28.5,
+    40.8,
+    29.5,
+    41.5
+  ],
+  "year": 2020,
+  "reference_asset": "ESA/WorldCover/v100/2020",
+  "requested_per_class": 200,
+  "returned_histogram": {
+    "10": 200,
+    "40": 200
+  },
+  "rows": 400,
+  "missing_rows": 0,
+  "feature_count": 64,
+  "sampling_scale_m": 500,
+  "seed": 42,
+  "train": 300,
+  "test": 100,
+  "spatial_train": 296,
+  "spatial_test": 104,
+  "spatial_train_blocks": 27,
+  "spatial_test_blocks": 10,
+  "sample_sha256": "ab1c9baecff5483858cce60874732178f0372fd5c9677a40916286dba1214076",
+  "python": "3.10.0",
+  "numpy": "1.26.1",
+  "pandas": "2.2.2",
+  "xgboost": "3.0.2",
+  "lightgbm": "4.5.0",
+  "results": [
+    {
+      "algorithm": "rf",
+      "max_probability_difference": 0.0,
+      "labels_identical": true,
+      "random_accuracy": 0.96,
+      "random_auc": 0.9840000000000001,
+      "warnings": [],
+      "spatial_accuracy": 0.9711538461538461,
+      "spatial_auc": 0.9975925925925927
+    },
+    {
+      "algorithm": "gbt",
+      "max_probability_difference": 0.0,
+      "labels_identical": true,
+      "random_accuracy": 0.95,
+      "random_auc": 0.984,
+      "warnings": [],
+      "spatial_accuracy": 0.9711538461538461,
+      "spatial_auc": 0.997037037037037
+    },
+    {
+      "algorithm": "xgb",
+      "max_probability_difference": 0.0,
+      "labels_identical": true,
+      "random_accuracy": 0.95,
+      "random_auc": 0.9924000000000001,
+      "warnings": [],
+      "spatial_accuracy": 0.9807692307692307,
+      "spatial_auc": 0.997037037037037
+    },
+    {
+      "algorithm": "lgb",
+      "max_probability_difference": 0.0,
+      "labels_identical": true,
+      "random_accuracy": 0.96,
+      "random_auc": 0.9928,
+      "warnings": [],
+      "spatial_accuracy": 0.9807692307692307,
+      "spatial_auc": 0.9962962962962962
+    }
+  ]
+}

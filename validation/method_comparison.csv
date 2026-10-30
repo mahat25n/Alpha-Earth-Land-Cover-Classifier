@@ -1,0 +1,19 @@
+setting,algorithm,label,accuracy,auc,train,test
+random,rf,Random Forest,0.96,0.984,300,100
+random,gbt,Gradient Boosting,0.95,0.984,300,100
+random,xgb,XGBoost,0.95,0.9924,300,100
+random,lgb,LightGBM,0.96,0.9928,300,100
+random,lr,Logistic Regression,0.97,0.9916,300,100
+random,svm,Support Vector Machine,0.96,0.994,300,100
+random,knn,K-Nearest Neighbours,0.95,0.9848,300,100
+random,cat,CatBoost,0.94,0.988,300,100
+random,mlp,Neural Network,0.97,0.9948,300,100
+spatial,rf,Random Forest,0.9711538461538461,0.9975925925925926,296,104
+spatial,gbt,Gradient Boosting,0.9711538461538461,0.997037037037037,296,104
+spatial,xgb,XGBoost,0.9807692307692307,0.997037037037037,296,104
+spatial,lgb,LightGBM,0.9807692307692307,0.9962962962962963,296,104
+spatial,lr,Logistic Regression,0.9711538461538461,0.9933333333333333,296,104
+spatial,svm,Support Vector Machine,0.9807692307692307,0.9918518518518519,296,104
+spatial,knn,K-Nearest Neighbours,0.9711538461538461,0.9883333333333333,296,104
+spatial,cat,CatBoost,0.9807692307692307,0.9981481481481481,296,104
+spatial,mlp,Neural Network,0.9711538461538461,0.9914814814814815,296,104

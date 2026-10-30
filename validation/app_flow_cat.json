@@ -1,0 +1,9 @@
+{
+  "flow": "one real cached sample, nine-model batch, annual export callback",
+  "algorithm": "cat",
+  "completed": true,
+  "history_rows": 1,
+  "export_rows": 400,
+  "browser_rendering_tested": false,
+  "sheets_logging": false
+}

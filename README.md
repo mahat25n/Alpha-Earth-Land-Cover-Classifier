@@ -82,7 +82,7 @@ This repository extends the original app with the following improvements:
 
 1. **Open the notebook** - Click the Binder badge above, or open `alpha_earth_app.ipynb` in a Jupyter environment with Earth Engine authenticated.
 
-2. **Authenticate Earth Engine** - The notebook uses your saved Earth Engine project, or `EE_PROJECT_ID` / `GOOGLE_CLOUD_PROJECT` if set. Follow the authentication prompt if needed. Use an Earth Engine-enabled project you can access; the original developer's project is no longer hard-coded.
+2. **Authenticate Earth Engine** - The notebook uses your saved Earth Engine project, or `EE_PROJECT_ID` / `GOOGLE_CLOUD_PROJECT` if set. On Binder, run all notebook cells, enter your own Earth Engine-enabled Google Cloud project ID when prompted, and follow the notebook sign-in instructions. Credentials from your computer are not available in a fresh Binder session. The original developer’s project is not hard-coded.
 
 3. **Select your country** - Choose the country you are currently in from the dropdown. The map will automatically recenter to that country.
 
@@ -94,10 +94,10 @@ This repository extends the original app with the following improvements:
 5. **Choose land cover classes** - Select Class A and Class B from the ESA WorldCover class list. The app classifies pixels belonging to these two classes.
 
 6. **Configure algorithm settings**:
-   - *Algorithm* - Pick a single classifier (Random Forest, Gradient Boosting, XGBoost, or LightGBM) or select **All Algorithms** to compare all four
+   - *Algorithm* - Pick one of the nine classifiers or select **All Algorithms** to compare all nine using the same samples and split
    - *Year From / Year To* - Set a single year or a range (2017-2024)
-   - *Show top N* - Choose how many embedding layers to display on the results map (3, 5, or 10)
-   - *Temporal Res* - Select Yearly, Monthly, or Daily for the time series export (optional)
+   - *Show top N* - Choose how many embedding layers to display on the results map (3, 5, or 10; default 5)
+   - *Resolution* - Yearly. Annual samples retain the selected embedding year and the fixed 2020 reference year
 
 7. **Run the analysis** - Click **RUN ANALYSIS**. A progress bar tracks sampling, training, and map generation.
 

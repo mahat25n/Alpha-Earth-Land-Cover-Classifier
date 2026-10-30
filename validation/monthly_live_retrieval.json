@@ -1,0 +1,54 @@
+{
+  "checked_date": "2026-10-30",
+  "code_commit": "31d7e795d11b3bddf791c45101d3c2ce0dcd2255",
+  "method": "Executed sample_series from the published module against Earth Engine; no classifier training. Saved authorization used locally for remote data access, not transferred to Binder.",
+  "series": [
+    {
+      "dataset": "king_county_2025_monthly",
+      "longitude": -122.33,
+      "latitude": 47.6,
+      "rows": 6,
+      "valid": 6,
+      "start_dates": [
+        "2025-01-01",
+        "2025-02-01",
+        "2025-03-01",
+        "2025-04-01",
+        "2025-05-01",
+        "2025-06-01"
+      ],
+      "cosine_to_first": [
+        1,
+        0.9911302924159223,
+        0.975497076376928,
+        0.9318907328845678,
+        0.906730802218989,
+        0.8243152038392119
+      ]
+    },
+    {
+      "dataset": "meloland_california_2026_crop_cycles",
+      "longitude": -115.43,
+      "latitude": 32.8,
+      "rows": 6,
+      "valid": 6,
+      "start_dates": [
+        "2025-11-15",
+        "2025-12-15",
+        "2026-01-15",
+        "2026-02-15",
+        "2026-03-15",
+        "2026-04-15"
+      ],
+      "cosine_to_first": [
+        1,
+        0.9244818202735563,
+        0.9337243538373204,
+        0.9253488563651379,
+        0.9288656639000175,
+        0.9274789362712225
+      ]
+    }
+  ],
+  "limits": "Two public demonstration points only; no global coverage claim or validated land-cover change. Subsequent change 54bb21e affects widget coordinate updates only."
+}

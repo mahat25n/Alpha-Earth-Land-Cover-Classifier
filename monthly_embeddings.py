@@ -155,8 +155,8 @@ def monthly_panel():
     from IPython.display import display, HTML, clear_output
     dataset = widgets.Dropdown(options=[(v[0], k) for k, v in DATASETS.items()],
                                description="Dataset:", layout=widgets.Layout(width="95%"))
-    lon = widgets.BoundedFloatText(value=-122.33, min=-180, max=180, description="Longitude:")
-    lat = widgets.BoundedFloatText(value=47.60, min=-90, max=90, description="Latitude:")
+    lon = widgets.BoundedFloatText(value=-122.33, min=-180, max=180, description="Longitude:", continuous_update=True)
+    lat = widgets.BoundedFloatText(value=47.60, min=-90, max=90, description="Latitude:", continuous_update=True)
     run = widgets.Button(description="Read monthly point", icon="calendar",
                          layout=widgets.Layout(width="200px"))
     output = widgets.Output()

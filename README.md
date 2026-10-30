@@ -159,3 +159,16 @@ Tree models retain native importance. Other models use training permutation accu
 A convergence warning stops the run; a non-converged result is not accepted. Install CatBoost from requirements.txt before using CatBoost or All Algorithms. More methods increase runtime, especially kernel SVM and permutation displays at large sample settings. Large-region performance has not been benchmarked.
 
 Run `python validate_methods.py` for the saved-sample comparison and `python validate_app_flow.py` for the nine-model callback/export test. The latter requires Earth Engine access. An individual method can be checked with `--algorithm lr`, `svm`, `knn`, `cat` or `mlp`. Scores and exact shared row indices are saved in `validation/method_comparison.json`; the CSV contains the comparison table. These bounded results do not establish general superiority.
+
+
+## Monthly AlphaEarth public samples
+
+A separate, collapsed **Monthly AlphaEarth samples** panel reads the official King County January-June 2025 series and Meloland November 15, 2025-May 15, 2026 series. Select the dataset, enter a point within its coverage, then choose **Read monthly point**. The annual application and its Top 5 default are unchanged.
+
+The panel exports all six intervals and all 64 decoded embedding axes, with source tiles, exact inclusive-start/exclusive-end dates, model/data versions, manifest fingerprint and sampling grid. It plots cosine distance from the first published interval and reports similarity to the immediately preceding interval. Missing pixels remain missing; the baseline never silently shifts to a later month. This is point-level embedding monitoring, not monthly land-cover classification, a global monthly dataset, or a daily product. No classifiers run in this panel. Changes in embedding similarity are descriptive, not proof of a particular physical change.
+
+Only the two documented monthly series are enabled. Completeness, band order and model-version checks stop on inconsistent metadata. Nodata -128 is masked before mosaicking, raw signed bytes are decoded once using Google's squared signed mapping, and similarity uses all 64 axes. Sampling uses nearest-neighbour values on a fixed EPSG:4326 grid at nominal 10 m. Monthly embeddings are not mixed with annual embeddings or evaluated against the annual app's 2020 labels.
+
+Sources: [Google's monthly sample documentation](https://developers.google.com/earth-engine/guides/custom_embedding_samples_on_gcs_readme) and [official data-access example](https://github.com/googlemaps-samples/insights-samples/blob/main/custom_satellite_embeddings/notebooks/ee_data_access/Custom_Satellite_Embeddings_Data_Access.ipynb). Attribution: Custom Satellite Embeddings from AlphaEarth Foundations are produced by Google and Google DeepMind. CC-BY 4.0.
+
+Verification scope: GitHub Actions checks parsing, missing-value handling, inverse quantization, cosine calculations, notebook syntax, preservation of the four existing notebook cells, and live public manifests/metadata. It does not authenticate to Earth Engine, train models, or verify Binder/browser rendering. Those runtime checks remain separate.

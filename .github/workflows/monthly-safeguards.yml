@@ -1,0 +1,32 @@
+name: Monthly sample safeguards
+on:
+  push:
+    paths:
+      - monthly_embeddings.py
+      - tests/test_monthly_embeddings.py
+      - alpha_earth_app.ipynb
+      - .github/workflows/monthly-safeguards.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Check monthly mathematics, dates, masking and annual preservation
+        run: python -m unittest discover -s tests -p test_monthly_embeddings.py -v
+      - name: Verify complete public monthly manifests and metadata
+        run: |
+          python - <<'PY'
+          from monthly_embeddings import DATASETS, catalogue
+          for dataset in DATASETS:
+              periods, versions, fingerprint = catalogue(dataset)
+              print(dataset, len(periods), sum(len(p[2]) for p in periods), versions, fingerprint)
+          PY
